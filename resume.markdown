@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-[Comment]: Click [here](https://pekofsky.github.io/nlp) to view my resume, or feel free to view it below.
+Click [here](https://github.com/pekofsky/pekofsky.github.io/blob/main/assets/resume.pdf) to view my resume on github, or feel free to view it below.
 
 <object data="https://pekofsky.github.io/assets/resume.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://pekofsky.github.io/assets/resume.pdf">
