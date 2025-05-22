@@ -8,9 +8,9 @@ permalink: /projects/
 
 # US Migration Flows Visualization Project
 
-This project looks much better in HTML format, which can be viewed [here](https://pekofsky.github.io/assets/436proj.html) and/or downloaded from GitHub [here](https://pekofsky/pekofsky.github.io/blob/main/assets/436proj.html).
+This project looks much better in HTML format, which can be opened [here](https://pekofsky.github.io/assets/436proj.html) and/or opened/downloaded on GitHub [here](https://github.com/pekofsky/pekofsky.github.io/blob/23d7f0fd2362cba9b71fa5f73c90ef7323bda5e0/assets/436proj.html).
 
-If you would instead like to view the PDF version, feel free to look below or on [GitHub](https://pekofsky.github.io/assets/436proj.pdf).
+If you would instead like to view the PDF version, feel free to open it [here](https://pekofsky.github.io/assets/436proj.pdf), open/download on [GitHub](https://github.com/pekofsky/pekofsky.github.io/blob/23d7f0fd2362cba9b71fa5f73c90ef7323bda5e0/assets/436proj.pdf), or view/download below.
 
 <object data="https://pekofsky.github.io/assets/436proj.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://pekofsky.github.io/assets/436proj.pdf">
