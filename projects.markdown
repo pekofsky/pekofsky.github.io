@@ -4,12 +4,16 @@ title: Projects
 permalink: /projects/
 ---
 
-These are projects.
+# These are the best of my projects and work for classes
 
-[NLP](https://pekofsky.github.io/nlp)
+# US Migration Flows Visualization Project
 
-<object data="https://pekofsky.github.io/_site/files/436proj.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://pekofsky.github.io/_site/files/436proj.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://pekofsky.github.io/_site/files/436proj.pdf">Download PDF</a>.</p>
+This project looks much better in HTML format, which can be viewed and/or downloaded from GitHub [here](https://pekofsky.github.io/assets/436proj.html).
+
+If you would instead like to view the PDF version, feel free to look below or on [GitHub](https://pekofsky.github.io/assets/436proj.pdf).
+
+<object data="https://pekofsky.github.io/assets/436proj.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://pekofsky.github.io/assets/436proj.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://pekofsky.github.io/assets/436proj.pdf">Download PDF</a>.</p>
     </embed>
 </object>
