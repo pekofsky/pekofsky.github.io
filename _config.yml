@@ -18,22 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# title: Samuel Dae Sun Pekofsky
-# email: sampekofsky@gmail.com
-# description: Welcome to my site! Enjoy your stay :)
-# # >- # this means to ignore newlines until "baseurl:"
-#   # Write an awesome description for your new site here. You can edit this
-#   # line in _config.yml. It will appear in your document head meta (for
-#   # Google search results) and in your feed.xml site description.
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: I don't have twitter.
-# github_username:  pekofsky
+title: Samuel Dae Sun Pekofsky
+email: sampekofsky@gmail.com
+description: Welcome to my site! Enjoy your stay :)
+# >- # this means to ignore newlines until "baseurl:"
+  # Write an awesome description for your new site here. You can edit this
+  # line in _config.yml. It will appear in your document head meta (for
+  # Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: I don't have twitter.
+github_username:  pekofsky
 
-# # Build settings
-# theme: minima
-# plugins:
-#   - jekyll-feed
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -54,18 +54,3 @@
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-
----
----
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-  </head>
-  <body>
-    <h1>{{ "Hello World!" | downcase }}</h1>
-  </body>
-</html>
