@@ -14,11 +14,13 @@ permalink: /projects/
 ### HTML
 
 [Open in a new window](https://pekofsky.github.io/assets/436proj.html)
+
 [Open on GitHub](https://github.com/pekofsky/pekofsky.github.io/blob/23d7f0fd2362cba9b71fa5f73c90ef7323bda5e0/assets/436proj.html)
 
 ### PDF
 
 [Open in a new window](https://pekofsky.github.io/assets/436proj.pdf)
+
 [Open on GitHub](https://github.com/pekofsky/pekofsky.github.io/blob/23d7f0fd2362cba9b71fa5f73c90ef7323bda5e0/assets/436proj.pdf)
 
 <object data="https://pekofsky.github.io/assets/436proj.pdf" type="application/pdf" width="700px" height="700px">
@@ -35,9 +37,11 @@ permalink: /projects/
 ### HTML
 
 [Open in a new window](https://pekofsky/github.io/assets/studyhabits.html)
+
 [Open on Github](https://github.com/pekofsky/pekofsky.github.io/blob/5377466144b607522568b39a40c1c61022fd52b1/assets/studyhabits.html)
 
 ### PDF
 
 [Open in a new window](https://pekofsky/github.io/assets/studyhabits.pdf)
+
 [Open on Github](https://github.com/pekofsky/pekofsky.github.io/blob/5377466144b607522568b39a40c1c61022fd52b1/assets/studyhabits.pdf)
