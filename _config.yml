@@ -16,30 +16,34 @@
 
 ## => Site Settings
 ##############################
-text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
-url     : # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl : # does not include hostname
-title   : Your Site Title
+text_skin: ocean # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+highlight_theme: tomorrow-night-bright # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+url     : https://pekofsky.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
+baseurl : "" # does not include hostname
+title   : Samuel Dae Sun Pekofsky
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  Personal website and portfolio of Samuel Dae Sun Pekofsky, 
+  a recent UW-Madison graduate with a B.S. in Data Science and a minor in Computer Science.
 
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: en # the language of your site, default as "en"
+timezone: America/Chicago # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
 ##############################
 author:
-  type      : # "person" (default), "organization"
-  name      : Your Name
+  type      : "person" # "person" (default), "organization"
+  name      : Samuel Dae Sun Pekofsky
   url       :
-  avatar    : # path or url of avatar image (square)
-  bio       : I am an amazing person.
-  email     :
+  avatar    : assets\_avatar.JPG # path or url of avatar image (square)
+  bio       : > # 
+    I am a recent graduate from the University of Wisconsin-Madison with a B.S. in Data Science and a minor in Computer Science. 
+
+  ## =>
+  email     : sampekofsky@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -48,15 +52,15 @@ author:
   medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
-  linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  linkedin  : samuelpekofsky # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  github    : pekofsky # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
-repository_tree: master
+repository: pekofsky/pekofsky.github.io
+repository_tree: main
 
 
 ## => Paths
@@ -81,17 +85,17 @@ toc:
   selectors: # "h1,h2,h3" (default)
 
 
-## => Markdown Enhancements
+## => Markdown Enhancements, all default to false?
 ##############################
 ## Mathjax
-mathjax: # false (default), true
-mathjax_autoNumber: # false (default), true
+mathjax: true
+mathjax_autoNumber: true
 
 ## Mermaid
-mermaid: # false (default), true
+mermaid: true
 
 ## Chart
-chart: # false (default), true
+chart: true
 
 
 ## => Paginate
@@ -108,11 +112,11 @@ sources: # bootcdn (default), unpkg
 ## => Sharing
 ##############################
 sharing:
-  provider: false # false (default), "addtoany", "addthis", "custom"
+  provider: addtoany # false (default), "addtoany", "addthis", "custom"
 
   ## AddThis
-  addthis:
-    id: # AddThis pubid, e.g. ra-5xxxxxxxxxxx
+  # addthis:
+    # id: # AddThis pubid, e.g. ra-5xxxxxxxxxxx
 
 
 ## => Comments
