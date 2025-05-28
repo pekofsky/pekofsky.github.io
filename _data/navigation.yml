@@ -24,7 +24,7 @@ header:
       # fr-LU   : *FR
       # tr      : &TR       Projeler
       # @end locale config
-    url: /projects.markdown
+    url: /projects/
 
   - titles:
       # @start locale config
@@ -50,7 +50,7 @@ header:
       # fr-LU   : *FR
       # tr      : &TR       Özgeçmiş
       # @end locale config
-    url: /resume.markdown
+    url: /resume/
 
   - titles:
       # @start locale config
