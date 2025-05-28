@@ -20,14 +20,14 @@
 
 title: Samuel Dae Sun Pekofsky
 email: sampekofsky@gmail.com
-description: Welcome to my site! Enjoy your stay :)
+description: "Personal website and portfolio of Samuel Dae Sun Pekofsky, a recent UW-Madison graduate with a B.S. in Data Science and a minor in Computer Science."
 # >- # this means to ignore newlines until "baseurl:"
   # Write an awesome description for your new site here. You can edit this
   # line in _config.yml. It will appear in your document head meta (for
   # Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: I don't have twitter.
+# twitter_username: I don't have twitter.
 github_username:  pekofsky
 
 # Build settings
@@ -40,6 +40,13 @@ plugins:
 #       path: "assets"
 #     values:
 
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Resume"
+    url: "/resume/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

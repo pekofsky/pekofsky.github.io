@@ -6,15 +6,15 @@ permalink: /projects/436proj
 
 ### HTML
 
-[Open in a new window](https://pekofsky.github.io/assets/436proj.html)
+<h2><a href="https://pekofsky.github.io/assets/436proj.html" target="_blank" rel="noopener noreferrer">Open in a new window</a></h2>
 
-[Open on GitHub](https://github.com/pekofsky/pekofsky.github.io/blob/23d7f0fd2362cba9b71fa5f73c90ef7323bda5e0/assets/436proj.html)
+<h2><a href="https://github.com/pekofsky/pekofsky.github.io/blob/23d7f0fd2362cba9b71fa5f73c90ef7323bda5e0/assets/436proj.html" target="_blank" rel="noopener noreferrer">Open on GitHub</a></h2>
 
 ### PDF
 
-[Open in a new window](https://pekofsky.github.io/assets/436proj.pdf)
+<h2><a href="https://pekofsky.github.io/assets/436proj.pdf" target="_blank" rel="noopener noreferrer">Open in a new window</a></h2>
 
-[Open on GitHub](https://github.com/pekofsky/pekofsky.github.io/blob/23d7f0fd2362cba9b71fa5f73c90ef7323bda5e0/assets/436proj.pdf)
+<h2><a href="https://github.com/pekofsky/pekofsky.github.io/blob/23d7f0fd2362cba9b71fa5f73c90ef7323bda5e0/assets/436proj.pdf" target="_blank" rel="noopener noreferrer">Open on GitHub</a></h2>
 
 <object data="https://pekofsky.github.io/assets/436proj.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://pekofsky.github.io/assets/436proj.pdf">

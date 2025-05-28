@@ -6,9 +6,9 @@ permalink: /projects/2020tweets
 
 ### PDF
 
-[Open in a new window](https://pekofsky.github.io/assets/2020tweets.pdf)
+<h2><a href="https://pekofsky.github.io/assets/2020tweets.pdf" target="_blank" rel="noopener noreferrer">Open in a new window</a></h2>
 
-[Open on Github](https://github.com/pekofsky/pekofsky.github.io/blob/5377466144b607522568b39a40c1c61022fd52b1/assets/2020tweets.pdf)
+<h2><a href="https://github.com/pekofsky/pekofsky.github.io/blob/5377466144b607522568b39a40c1c61022fd52b1/assets/2020tweets.pdf" target="_blank" rel="noopener noreferrer">Open on Github</a></h2>
 
 <object data="https://pekofsky.github.io/assets/2020tweets.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://pekofsky.github.io/assets/2020tweets.pdf">
