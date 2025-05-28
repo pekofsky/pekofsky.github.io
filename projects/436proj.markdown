@@ -1,3 +1,9 @@
+---
+layout: page
+title: US Migration Flows Visualization Project
+permalink: /projects/436proj
+---
+
 ### HTML
 
 [Open in a new window](https://pekofsky.github.io/assets/436proj.html)
