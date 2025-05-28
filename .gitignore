@@ -4,3 +4,32 @@ _site
 .jekyll-metadata
 vendor
 Gemfile.lock
+
+# everything below this line is from teXt theme
+*~
+~*
+*.diff
+*.patch
+*.bak
+.DS_Store
+*.swp
+*.swo
+*.log
+*.log.*
+
+/.vscode/
+
+node_modules/
+# .sass-cache/
+
+/.bundle/
+/vendor/bundle
+*.gem
+
+yarn.lock
+package-lock.json
+# Gemfile.lock
+
+# _site/
+# .jekyll-metadata
+# .jekyll-cache/
