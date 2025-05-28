@@ -20,3 +20,8 @@ permalink: /projects/
 ## [Sentiment Analysis and Topic Modeling of Tweets Regarding the 2020 Presidential Election](https://pekofsky.github.io/projects/2020tweets)
 
 #### This research paper uses sentiment analysis and topic modeling to investigate tweets from 2020.
+
+
+## [NYC Crime Analysis](https://pekofsky.github.io/projects/240proj)
+
+#### Statistical Analysis of New York City Crime Data.
