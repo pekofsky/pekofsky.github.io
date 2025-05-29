@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-# These are the best of my projects and work for classes
+### These are the best of my projects and work for classes
 
 
 <h2><a href="/projects/436proj/" target="_blank" rel="noopener noreferrer">US Migration Flows Visualization Project</a></h2>
