@@ -17,9 +17,9 @@ permalink: /projects/
 #### This project is a brief exploration of a realistic simulated dataset of student habits, and it includes one of my favorite visualizations I have made. Similar to the previous project, this project looks much better in HTML format.
 
 
-<h2><a href="/projects/2020tweets.html" target="_blank" rel="noopener noreferrer">Sentiment Analysis and Topic Modeling of Tweets Regarding the 2020 Presidential Election</a></h2>
+<h2><a href="/projects/2020tweets.html" target="_blank" rel="noopener noreferrer">Sentiment Analysis and Topic Modeling of Tweets</a></h2>
 
-#### This research paper uses sentiment analysis and topic modeling to investigate tweets from 2020.
+#### This research paper uses sentiment analysis and topic modeling to investigate tweets surrounding the 2020 presidential election.
 
 
 <h2><a href="/projects/240proj.html" target="_blank" rel="noopener noreferrer">NYC Crime Analysis</a></h2>
