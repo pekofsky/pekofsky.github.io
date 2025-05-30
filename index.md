@@ -13,7 +13,7 @@ layout: home
 
 ## This website serves as a personal repository for my resume and favorite projects.
 
-Additionally, may find blog posts and other info about me. All of this can be easily found through the bar at the top.
+Additionally, you may find blog posts and other info about me. All of this can be easily found through the bar at the top.
 
 <div style="height: 2em;"></div>
 
