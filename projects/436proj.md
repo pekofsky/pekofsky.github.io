@@ -1,7 +1,7 @@
 ---
 layout: page
 title: US Migration Flows Visualization Project
-permalink: /projects/436proj
+permalink: /projects/436proj/
 ---
 
 ### HTML

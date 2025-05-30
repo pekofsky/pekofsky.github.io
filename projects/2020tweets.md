@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sentiment Analysis and Topic Modeling of Tweets Regarding the 2020 Presidential Election
-permalink: /projects/2020tweets
+permalink: /projects/2020tweets/
 ---
 
 ### PDF

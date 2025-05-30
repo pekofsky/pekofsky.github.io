@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NYC Crime Analysis
-permalink: /projects/240proj
+permalink: /projects/240proj/
 ---
 
 ### HTML
