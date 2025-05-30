@@ -9,12 +9,12 @@ permalink: /projects/
 
 <h2><a href="/projects/436proj/" target="_blank" rel="noopener noreferrer">US Migration Flows Visualization Project</a></h2>
 
-#### This project explores US migration data from the years 2016 through 2020. All versions also include a link to a hosted shiny app. This project looks much better in HTML format.
+#### This report explores US migration data from the years 2016 through 2020. All versions also include a link to a hosted shiny app.
 
 
 <h2><a href="/projects/studyhabits/" target="_blank" rel="noopener noreferrer">Exploration of Simulated Student Habits Data</a></h2>
 
-#### This project is a brief exploration of a realistic simulated dataset of student habits, and it includes one of my favorite visualizations I have made. Similar to the previous project, this project looks much better in HTML format.
+#### This project is a brief exploration of a realistic simulated dataset of student habits, and it includes one of my favorite visualizations I have made.
 
 
 <h2><a href="/projects/2020tweets/" target="_blank" rel="noopener noreferrer">Sentiment Analysis and Topic Modeling of Tweets</a></h2>
@@ -24,4 +24,4 @@ permalink: /projects/
 
 <h2><a href="/projects/240proj/" target="_blank" rel="noopener noreferrer">NYC Crime Analysis</a></h2>
 
-#### Statistical Analysis of New York City Crime Data.
+#### This report provides visualizations and details statistical analysis done with New York City crime data.

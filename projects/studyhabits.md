@@ -1,8 +1,16 @@
 ---
 layout: page
-title: Exploration of Simulated Student Habits Data
 permalink: /projects/studyhabits/
 ---
+
+<!-- Back button -->
+<h5 style="margin-top:0;"><a href="/projects/" style="text-decoration:none;font-size:1.1em;">&lt; Back to All Projects</a></h5>
+
+# Exploration of Simulated Student Habits Data
+
+## This project is a brief exploration of a realistic simulated dataset of student habits, and it includes one of my favorite visualizations I have made.
+
+> **Please note**: This project looks much better in HTML format.
 
 ### HTML
 

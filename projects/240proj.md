@@ -1,8 +1,16 @@
 ---
 layout: page
-title: NYC Crime Analysis
 permalink: /projects/240proj/
 ---
+
+<!-- Back button -->
+<h5 style="margin-top:0;"><a href="/projects/" style="text-decoration:none;font-size:1.1em;">&lt; Back to All Projects</a></h5>
+
+# NYC Crime Analysis
+
+## This report provides visualizations and details statistical analysis done with New York City crime data.
+
+> **Please note**: This project looks much better in HTML format.
 
 ### HTML
 
