@@ -38,7 +38,7 @@ author:
   type      : "person" # "person" (default), "organization"
   name      : Samuel Dae Sun Pekofsky
   url       : https://pekofsky.github.io
-  avatar    : assets\\_avatar.JPG # path or url of avatar image (square)
+  avatar    : assets/_avatar.JPG # path or url of avatar image (square)
   bio       : > # 
     I am a recent graduate from the University of Wisconsin-Madison with a B.S. 
     in Data Science and a minor in Computer Science. 
