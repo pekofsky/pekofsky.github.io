@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+## Hi, I'm Samuel Pekofsky, a recent UW-Madison Graduate!
+
+![Grad Photo](assets\_avatar.JPG)
