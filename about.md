@@ -1,94 +1,62 @@
-<!-- ---
-layout: page
-title: About
-permalink: /about/
----
-
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll -->
-
-
 ---
 layout: article
 titles:
   # @start locale config
-  en      : &EN       About
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       소개
-  ko-KR   : *KO
-  fr      : &FR       À propos
-  fr-BE   : *FR
-  fr-CA   : *FR
-  fr-CH   : *FR
-  fr-FR   : *FR
-  fr-LU   : *FR
+  en      : &EN       About Me
+  # en-GB   : *EN
+  # en-US   : *EN
+  # en-CA   : *EN
+  # en-AU   : *EN
+  # zh-Hans : &ZH_HANS  关于
+  # zh      : *ZH_HANS
+  # zh-CN   : *ZH_HANS
+  # zh-SG   : *ZH_HANS
+  # zh-Hant : &ZH_HANT  關於
+  # zh-TW   : *ZH_HANT
+  # zh-HK   : *ZH_HANT
+  # ko      : &KO       소개
+  # ko-KR   : *KO
+  # fr      : &FR       À propos
+  # fr-BE   : *FR
+  # fr-CA   : *FR
+  # fr-CH   : *FR
+  # fr-FR   : *FR
+  # fr-LU   : *FR
   # @end locale config
 key: page-about
+permalink: about_me/
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+### Please Note: This page only includes personal details. For professional details, please refer to the rest of my site and/or contact me.
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+# Where am I from?
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+I was born in New Jersey. When I was 1, my family moved to a Chicago-area suburb, where we lived until I finished elementary school. During middle school and my first two years of high school, we lived in a suburb northwest of LA. For my final two years of high school, I lived in New York City, however, I only had about half a year of properly experiencing the city before Covid-19 lockdowns hit. I then moved on to Madison for my undergrad, and throughout my 4 years studying in Madison, New York has remained the home I've returned to for the summer and other breaks.
 
-## Features
+# What do I do for fun?
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+Currently, my most *interesting* hobbies are **bouldering** and **playing piano**, but I have a long way to go in both. On that note, any recommendations for improving at either, especially the former, are always appreciated. Additionally, I spend a lot of my free time in the **gym** and **watching shows**. Currently I am attempting a lean-bulk with the goal of getting slightly bigger and much stronger, and my recent binges are Suits and One Piece. I also really like **cooking**, but I don't mention this as one of my main hobbies because, firstly, *I need to do it*, and second, I <u>hate</u> cleaning up afterwards. I also really like **video games**, in particular, Overwatch 2 and Super Smash Bros Ultimate, though I only infrequently play the latter currently , since the aforementioned pastimes almost always come first.
 
-## Skins
+# Favorite Food(s)?
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+* Chicken Vesuvio
+  * Not nearly as well-known as it should be, cheap, filling, wonderfully flavorful, prepared in bulk, and it gets more delicious each day it sits in your fridge.
+* Deep Dish Pizza
+  * It only counts if its from a major Chicago-area chain. When people tell me "I don't like deep dish" and I learn that they've never had it **<u>in</u>** Chicago, it irks me, because it's really not the same.
+* Detroit Style Pizza
+  * Unlike the last item, I've never had it in it's place of origin but I still think it's great.
+* Steak
+  * Lean cuts only. Sirloin and filet are where it's at. New York strip is also decent.
+* Korean Barbecue
+  * Shoutout [Let's Meat BBQ](https://www.letsmeatnyc.com/menu/)!
+* Baked Ziti
+  * Simple and delicious.
+  * Also happens to be surprisingly good on pizza. Little Italy Pizza (one of my favorite NYC Pizza Chains) has baked ziti slices, truly the best of both worlds!
+* Ramen
+  * I love instant ramen, but that's not what I'm referring to.
+* Fried Rice
+  * During some semesters of college I think I was making large batches roughly twice a week.
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+<div style="height: 2em;"></div>
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
-
-### Highlight Theme
-
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
-
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+I'll add more to this page at a later date, but thanks for making it this far!
