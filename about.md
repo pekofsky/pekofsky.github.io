@@ -1,5 +1,6 @@
 ---
 layout: article
+title: About Me
 titles:
   # @start locale config
   en      : &EN       About Me
