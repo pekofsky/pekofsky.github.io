@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: page
 title: About Me
 titles:
   # @start locale config
