@@ -4,12 +4,14 @@ title: Resume
 permalink: /resume/
 ---
 
-<h2><a href="https://pekofsky.github.io/assets/resume.pdf" target="_blank" rel="noopener noreferrer">View in a new window</a></h2>
+[View in a new window](/assets/resume.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/resume.pdf" download>Download</a>
 
-<h2><a href="https://github.com/pekofsky/pekofsky.github.io/blob/5731d8aaf65f79ed194794d2b9c3747643038a91/assets/resume.pdf" target="_blank" rel="noopener noreferrer">Open on GitHub</a></h2>
+<link rel="stylesheet" href="/assets/css/pdf-embed.css">
 
-<object data="https://pekofsky.github.io/assets/resume.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://pekofsky.github.io/assets/resume.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://pekofsky.github.io/assets/resume.pdf">Download PDF</a>.</p>
+<div class="pdf-container">
+  <object data="/assets/resume.pdf" type="application/pdf">
+    <embed src="/assets/resume.pdf">
+      <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/resume.pdf">Download PDF</a>.</p>
     </embed>
-</object>
+  </object>
+</div>
