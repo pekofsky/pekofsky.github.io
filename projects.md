@@ -4,13 +4,15 @@ title: Projects
 permalink: /projects/
 ---
 
-### My best projects and work from classes and personal endeavors
+---
 
+My best projects and work from classes and personal endeavors
+
+---
 
 <!-- <h2><a href="/projects/436proj/">US Migration Flows Visualization Project</a></h2> -->
-
 ## US Migration Flows Visualization Project  
-[View HTML](/assets/436proj.html){:target="_blank" rel="noopener noreferrer"} | [View PDF](/assets/436proj.pdf){:target="_blank" rel="noopener noreferrer"} | [Download HTML](/assets/436proj.html?download){:download} | [Download PDF](/assets/436proj.pdf?download){:download}
+[View HTML](/assets/436proj.html){:target="_blank" rel="noopener noreferrer"} | [View PDF](/assets/436proj.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/436proj.html" download>Download HTML</a> | <a href="/assets/436proj.pdf" download>Download PDF</a>
 
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
@@ -53,7 +55,7 @@ function toggleParagraph(btn) {
 
 <!-- <h2><a href="/projects/studyhabits/">Exploration of Simulated Student Habits Data</a></h2> -->
 ## Exploration of Simulated Student Habits Data  
-[View HTML](/assets/studyhabits.html){:target="_blank" rel="noopener noreferrer"} | [View PDF](/assets/studyhabits.pdf){:target="_blank" rel="noopener noreferrer"} | [Download HTML](/assets/studyhabits.html?download){:download} | [Download PDF](/assets/studyhabits.pdf?download){:download}
+[View HTML](/assets/studyhabits.html){:target="_blank" rel="noopener noreferrer"} | [View PDF](/assets/studyhabits.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/studyhabits.html" download>Download HTML</a> | <a href="/assets/studyhabits.pdf" download>Download PDF</a>
 
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
@@ -96,7 +98,7 @@ function toggleParagraph(btn) {
 
 <!-- <h2><a href="/projects/2020tweets/">Sentiment Analysis and Topic Modeling of Tweets</a></h2> -->
 ## Sentiment Analysis and Topic Modeling of Tweets  
-[View PDF](/assets/2020tweets.pdf){:target="_blank" rel="noopener noreferrer"} | [Download PDF](/assets/2020tweets.pdf?download){:download}
+[View PDF](/assets/2020tweets.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/2020tweets.pdf" download>Download PDF</a>
 
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
@@ -139,7 +141,7 @@ function toggleParagraph(btn) {
 
 <!-- <h2><a href="/projects/240proj/">NYC Crime Analysis</a></h2> -->
 ## NYC Crime Analysis  
-[View HTML](/assets/240proj.html){:target="_blank" rel="noopener noreferrer"} | [View PDF](/assets/240proj.pdf){:target="_blank" rel="noopener noreferrer"} | [Download HTML](/assets/240proj.html?download){:download} | [Download PDF](/assets/240proj.pdf?download){:download}
+[View HTML](/assets/240proj.html){:target="_blank" rel="noopener noreferrer"} | [View PDF](/assets/240proj.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/240proj.html" download>Download HTML</a> | <a href="/assets/240proj.pdf" download>Download PDF</a>
 
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
