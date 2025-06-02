@@ -28,7 +28,11 @@ key: page-about
 permalink: about_me/
 ---
 
-### Please Note: This page only includes personal details. For professional details, please refer to the rest of my site and/or contact me.
+---
+
+Please Note: This page only includes personal details. For professional details, please refer to the rest of my site and/or contact me.
+
+---
 
 # <span style="color:blue"> Where am I from? </span>
 
@@ -59,5 +63,7 @@ Currently, my most *interesting* hobbies are **bouldering** and **playing piano*
   * During some semesters of college I think I was making large batches roughly twice a week.
 
 <div style="height: 2em;"></div>
+
+---
 
 I'll add more to this page at a later date, but thanks for making it this far!
