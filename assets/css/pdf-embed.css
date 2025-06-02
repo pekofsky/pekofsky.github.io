@@ -1,5 +1,5 @@
 .pdf-container {
-  width: 100vw;
+  width: 100%;
   height: 100dvh; /* Use dynamic viewport height for best scaling */
   max-width: 100%;
   max-height: 100dvh;
@@ -18,9 +18,9 @@ object, embed {
 }
 @media (max-width: 600px) {
   .pdf-container {
-    width: 98vw; /* Prevent horizontal scroll on mobile */
+    width: 100%; /* Use 100% instead of 98vw for consistency */
     height: 100dvh; /* Use full dynamic viewport height on mobile too */
-    max-width: 100vw;
+    max-width: 100%;
   }
   object, embed {
     width: 100%;
