@@ -1,3 +1,15 @@
 /* start custom scss snippet */
 
+html, body {
+  height: 100%;
+  min-height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Optionally, ensure main content container fills viewport */
+main, .main, #main-content {
+  min-height: 100dvh;
+}
+
 /* end custom scss snippet */
