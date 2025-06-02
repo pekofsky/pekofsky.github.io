@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
----
+<hr>
 
 [View in a new window](/assets/resume.pdf){:target="_blank" rel="noopener noreferrer"} \| <a href="/assets/resume.pdf" download>Download</a>
 
