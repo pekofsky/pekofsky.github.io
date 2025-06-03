@@ -139,6 +139,48 @@ function toggleParagraph(btn) {
 
 ---
 
+## Deep Learning for Classifying Images of Egyptian Monuments
+[View PDF](/assets/453proj.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/453proj.pdf" download>Download PDF</a>
+
+<div class="collapsible-paragraph">
+  <p class="collapsible-text">
+    This report details explorations in image recognition through deep learning.
+  </p>
+  <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
+</div>
+<script>
+function toggleParagraph(btn) {
+  const para = btn.previousElementSibling;
+  para.classList.toggle('expanded');
+  btn.textContent = para.classList.contains('expanded') ? 'Show less' : 'Show more';
+}
+</script>
+<style>
+.collapsible-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  transition: max-height 0.3s;
+  max-height: 3em; /* Adjust based on line height */
+}
+.collapsible-text.expanded {
+  -webkit-line-clamp: unset;
+  max-height: 100em;
+}
+.toggle-btn {
+  background: none;
+  border: none;
+  color: #007acc;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+  margin-top: 0.5em;
+}
+</style>
+
+---
+
 <!-- <h2><a href="/projects/240proj/">NYC Crime Analysis</a></h2> -->
 ## NYC Crime Analysis  
 [View HTML](/assets/240proj.html){:target="_blank" rel="noopener noreferrer"} | [View PDF](/assets/240proj.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/240proj.html" download>Download HTML</a> | <a href="/assets/240proj.pdf" download>Download PDF</a>
