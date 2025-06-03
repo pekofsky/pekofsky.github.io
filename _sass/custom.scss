@@ -1,3 +1,12 @@
 /* start custom scss snippet */
 
+// Subtle fix for nested list indentation
+.js-article-content ul ul,
+.js-article-content ol ol,
+.js-article-content ul ol,
+.js-article-content ol ul {
+  margin-left: 1.2rem !important;
+  padding-left: 0.8rem !important;
+}
+
 /* end custom scss snippet */

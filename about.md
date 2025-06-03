@@ -45,22 +45,22 @@ Currently, my most *interesting* hobbies are **bouldering** and **playing piano*
 # <span style="color:green"> Favorite Food(s)? </span>
 
 * Chicken Vesuvio
-  * Not nearly as well-known as it should be, cheap, filling, wonderfully flavorful, prepared in bulk, and it gets more delicious each day it sits in your fridge.
+    * Not nearly as well-known as it should be, cheap, filling, wonderfully flavorful, prepared in bulk, and it gets more delicious each day it sits in your fridge.
 * Deep Dish Pizza
-  * It only counts if its from a major Chicago-area chain. When people tell me "I don't like deep dish" and I learn that they've never had it **<u>in</u>** Chicago, it irks me, because it's really not the same.
+    * It only counts if its from a major Chicago-area chain. When people tell me "I don't like deep dish" and I learn that they've never had it **<u>in</u>** Chicago, it irks me, because it's really not the same.
 * Detroit Style Pizza
-  * Unlike the last item, I've never had it in it's place of origin but I still think it's great.
+    * Unlike the last item, I've never had it in it's place of origin but I still think it's great.
 * Steak
-  * Lean cuts only. Sirloin and filet are where it's at. New York strip is also decent.
+    * Lean cuts only. Sirloin and filet are where it's at. New York strip is also decent.
 * Korean Barbecue
-  * Shoutout [Let's Meat BBQ](https://www.letsmeatnyc.com/menu/)!
+    * Shoutout [Let's Meat BBQ](https://www.letsmeatnyc.com/menu/)!
 * Baked Ziti
-  * Simple and delicious.
-  * Also happens to be surprisingly good on pizza. Little Italy Pizza (one of my favorite NYC Pizza Chains) has baked ziti slices, truly the best of both worlds!
+    * Simple and delicious.
+    * Also happens to be surprisingly good on pizza. Little Italy Pizza (one of my favorite NYC Pizza Chains) has baked ziti slices, truly the best of both worlds!
 * Ramen
-  * I love instant ramen, but that's not what I'm referring to.
+    * I love instant ramen, but that's not what I'm referring to.
 * Fried Rice
-  * During some semesters of college I think I was making large batches roughly twice a week.
+    * During some semesters of college I think I was making large batches roughly twice a week.
 
 ---
 
