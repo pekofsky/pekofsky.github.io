@@ -30,7 +30,7 @@ permalink: about_me/
 
 ---
 
-Please Note: This page only includes personal details. For professional details, please refer to the rest of my site and/or contact me.
+Please Note: This page only includes personal information. For professional information, please refer to the rest of my site and/or contact me.
 
 ---
 
