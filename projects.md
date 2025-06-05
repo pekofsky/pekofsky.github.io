@@ -17,6 +17,8 @@ My best projects and work from classes and personal endeavors
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
     This report explores US migration data from the years 2016 through 2020. All versions also include a link to a hosted shiny app.
+
+    Note: This report looks much better in HTML.
   </p>
   <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
 </div>
@@ -60,6 +62,8 @@ function toggleParagraph(btn) {
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
     This project is a brief exploration of a realistic simulated dataset of student habits, and it includes one of my favorite visualizations I have made.
+
+    Note: This project looks much better in HTML.
   </p>
   <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
 </div>
@@ -188,6 +192,8 @@ function toggleParagraph(btn) {
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
     This report provides visualizations and details statistical analysis done with New York City crime data.
+
+    Note: This report looks much better in HTML.
   </p>
   <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
 </div>
