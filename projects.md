@@ -17,9 +17,9 @@ My best projects and work from classes and personal endeavors
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
     This report explores <a href="https://www.census.gov/topics/population/migration/guidance/migration-flows.html">US migration data</a> from the years 2016 through 2020. All versions also include a link to a hosted shiny app.
-    <br></br>
+    <br><br>
     <u><b>My Contributions:</b></u>
-    <br></br>
+    <br><br>
     <u><b>Note:</b></u> This report looks much better in HTML.
   </p>
   <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
@@ -34,9 +34,9 @@ My best projects and work from classes and personal endeavors
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
     This project is a brief exploration of a realistic simulated dataset of student habits, and it includes one of my favorite visualizations I have made.
-    <br></br>
+    <br><br>
     <u><b>My Contributions:</b></u>
-    <br></br>
+    <br><br>
     Note: This project looks much better in HTML.
   </p>
   <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
@@ -51,9 +51,9 @@ My best projects and work from classes and personal endeavors
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
     This research paper uses sentiment analysis and topic modeling to investigate tweets surrounding the 2020 presidential election.
-    <br></br>
+    <br><br>
     <u><b>My Contributions:</b></u>
-    <br></br>
+    <br><br>
   </p>
   <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
 </div>
@@ -66,9 +66,9 @@ My best projects and work from classes and personal endeavors
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
     This report details explorations in image recognition through deep learning.
-    <br></br>
+    <br><br>
     <u><b>My Contributions:</b></u>
-    <br></br>
+    <br><br>
   </p>
   <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
 </div>
@@ -82,9 +82,9 @@ My best projects and work from classes and personal endeavors
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
     This report provides visualizations and details statistical analysis done with New York City crime data.
-    <br></br>
+    <br><br>
     <u><b>My Contributions:</b></u>
-    <br></br>
+    <br><br>
     Note: This report looks much better in HTML.
   </p>
   <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
