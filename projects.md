@@ -16,9 +16,11 @@ My best projects and work from classes and personal endeavors
 
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
-    This report explores US migration data from the years 2016 through 2020. All versions also include a link to a hosted shiny app.
+    This report explores <a href="https://www.census.gov/topics/population/migration/guidance/migration-flows.html">US migration data</a> from the years 2016 through 2020. All versions also include a link to a hosted shiny app.
 
-    Note: This report looks much better in HTML.
+    <u><b>My Contributions:</u></b>
+
+    <u><b>Note:</u></b> This report looks much better in HTML.
   </p>
   <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
 </div>
