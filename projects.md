@@ -18,7 +18,7 @@ My best projects and work from classes and personal endeavors
   <p class="collapsible-text">
     This report explores <a href="https://www.census.gov/topics/population/migration/guidance/migration-flows.html">US migration data</a> from the years 2016 through 2020. All versions also include a link to a hosted shiny app.
     <br><br>
-    <u><b>My Contributions:</b></u>
+    <u><b>My Contributions:</b></u> Wrote much of the analysis, published our shiny app, cleaned up formatting, and proofread both code and writing. Additionally, conducted early literature review to assist groupmates in chosing the best packages for our visualizations.
     <br><br>
     <u><b>Note:</b></u> This report looks much better in HTML.
   </p>
@@ -35,7 +35,7 @@ My best projects and work from classes and personal endeavors
   <p class="collapsible-text">
     This project is a brief exploration of a realistic simulated dataset of student habits, and it includes one of my favorite visualizations I have made.
     <br><br>
-    <u><b>My Contributions:</b></u>
+    <u><b>My Contributions:</b></u> 
     <br><br>
     <u><b>Note:</b></u> This project looks much better in HTML.
   </p>
