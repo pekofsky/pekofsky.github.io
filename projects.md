@@ -37,7 +37,7 @@ My best projects and work from classes and personal endeavors
     <br><br>
     <u><b>My Contributions:</b></u>
     <br><br>
-    Note: This project looks much better in HTML.
+    <u><b>Note:</b></u> This project looks much better in HTML.
   </p>
   <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
 </div>
@@ -85,7 +85,7 @@ My best projects and work from classes and personal endeavors
     <br><br>
     <u><b>My Contributions:</b></u>
     <br><br>
-    Note: This report looks much better in HTML.
+    <u><b>Note:</b></u> This report looks much better in HTML.
   </p>
   <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
 </div>
