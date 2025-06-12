@@ -53,7 +53,6 @@ My best projects and work from classes and personal endeavors
     This research paper uses sentiment analysis and topic modeling to investigate tweets surrounding the 2020 presidential election.
     <br><br>
     <u><b>My Contributions:</b></u> Much of sections 1 through 3 were written or heavily edited by me, with 2 and 3 notably containing concise literature review. Wrote the code used to create most the figures in section 5, <i>Results</i>, and wrote the respective analysis for most figures. Wrote the entirety of section 6, <i>Considerations and Future Directions</i>, and most of section 7, <i>Conclusion</i>. Proofread all code and writing. Formatted document using LaTeX.
-    <br><br>
   </p>
   <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
 </div>
@@ -68,7 +67,6 @@ My best projects and work from classes and personal endeavors
     This report details explorations in image recognition through deep learning.
     <br><br>
     <u><b>My Contributions:</b></u> Much of the writing in sections 4-8, managing our GitHub repo, wrote our hybrid CNN-transformer model, wrote code to train and test all 12 variations of both models, and generated figures.
-    <br><br>
   </p>
   <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
 </div>
