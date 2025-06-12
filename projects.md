@@ -67,7 +67,7 @@ My best projects and work from classes and personal endeavors
   <p class="collapsible-text">
     This report details explorations in image recognition through deep learning.
     <br><br>
-    <u><b>My Contributions:</b></u>
+    <u><b>My Contributions:</b></u> Much of the writing in sections 4-8, managing our GitHub repo, wrote our hybrid CNN-transformer model, wrote code to train and test all 12 variations of both models, and generated figures.
     <br><br>
   </p>
   <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
@@ -83,7 +83,7 @@ My best projects and work from classes and personal endeavors
   <p class="collapsible-text">
     This report provides visualizations and details statistical analysis done with New York City crime data.
     <br><br>
-    <u><b>My Contributions:</b></u>
+    <u><b>My Contributions:</b></u> Wrote all code used for data cleaning and preprocessing, and most of the code used to generate figures. Handled all formatting. Wrote and proofread parts of <i>Introduction</i> and <i>Discussion</i>, wrote most of <i>Analysis</i>, and wrote all of <i>Background</i>.
     <br><br>
     <u><b>Note:</b></u> This report looks much better in HTML.
   </p>
