@@ -28,7 +28,7 @@ My best projects and work from classes and personal endeavors
 ---
 
 <!-- <h2><a href="/projects/studyhabits/">Exploration of Simulated Student Habits Data</a></h2> -->
-## Exploration of Simulated Student Habits Data  
+## Exploration of Simulated Student Habit Data  
 [View HTML](/assets/studyhabits.html){:target="_blank" rel="noopener noreferrer"} | [View PDF](/assets/studyhabits.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/studyhabits.html" download>Download HTML</a> | <a href="/assets/studyhabits.pdf" download>Download PDF</a>
 
 <div class="collapsible-paragraph">
