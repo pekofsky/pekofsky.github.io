@@ -1645,15 +1645,19 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 <div id="what-is-clubsandwich" class="section level1">
 <h1>🥪 What is clubSandwich?</h1>
-<p><strong>clubSandwich</strong> is an R package implements sandwich
-estimators into a variety of statistical tools</p>
+<p><strong>clubSandwich</strong> provides specialized methods (called
+sandwich estimators) for assessing uncertainty in estimated statistical
+models</p>
 <ul>
 <li><p>📊 <strong>Sandwich estimators</strong> are statistical methods
-used to obtain better results under conditions where more common and/or
-basic methods may not do a great job</p></li>
+for computing standard errors, confidence intervals, and hypothesis
+tests that work under conditions where more common or basic methods fail
+(such as in regression models with correlated errors)</p></li>
 <li><p>🎯 <strong>clubSandwich</strong> has an object-oriented design,
 allowing for it to be used with a variety of statistical models from
-base R and other packages</p></li>
+base R and other packages, such as linear regression models, logistic
+and other generalized linear models, hierarchical linear models, and
+instrumental variables models</p></li>
 </ul>
 <blockquote>
 <p>💡 <strong>Want to learn more?</strong> Visit the official
@@ -1665,9 +1669,9 @@ documentation at <a href="https://jepusto.github.io/clubSandwich/" class="uri">h
 </div>
 <div id="estimatr-package" class="section level1">
 <h1>📈 estimatr Package</h1>
-<p>My main task since March has been to allow the <code>lm_robust</code>
-object from <strong>estimatr</strong> to be used with
-<strong>clubSandwich</strong> functions.</p>
+<p>estimatr is a popular package for fitting linear regression models.
+It’s used by many researchers who run randomized field experiments in
+political science, economics, and education</p>
 <blockquote>
 <p>🔧 <strong>Key Challenge</strong>: <code>lm_robust</code> objects are
 very similar to <code>lm</code> objects from base R, but because of
@@ -1685,12 +1689,12 @@ library(clubSandwich)</code></pre>
 Duncan$cluster &lt;- sample(LETTERS[1:8], size = nrow(Duncan), replace = TRUE)
 head(Duncan)</code></pre>
 <pre><code>##            type income education prestige cluster
-## accountant prof     62        86       82       H
-## pilot      prof     72        76       83       C
-## architect  prof     75        92       90       C
-## author     prof     55        90       76       H
-## chemist    prof     64        86       90       F
-## minister   prof     21        84       87       H</code></pre>
+## accountant prof     62        86       82       A
+## pilot      prof     72        76       83       D
+## architect  prof     75        92       90       A
+## author     prof     55        90       76       A
+## chemist    prof     64        86       90       E
+## minister   prof     21        84       87       B</code></pre>
 <p>Now, we can also make two models using <code>lm</code> and
 <code>lm_robust</code>, which will be very similar, since they will be
 using the same data and formula.</p>
@@ -1815,34 +1819,22 @@ changes, an <code>lm_robust</code> object could not be used with it.</p>
 job type:</p>
 <pre class="r"><code>Wald_test(Duncan_lm,
           constraints = constrain_pairwise(&quot;:education&quot;, reg_ex = TRUE),
-          vcov = &quot;CR2&quot;, cluster = Duncan$cluster)</code></pre>
-<pre><code>## $`typeprof:education - typebc:education`
-##  test  Fstat df_num df_denom p_val sig
-##   HTZ 0.0083      1     3.55 0.932    
-## 
-## $`typewc:education - typebc:education`
-##  test Fstat df_num df_denom p_val sig
-##   HTZ 0.185      1     2.98 0.696    
-## 
-## $`typewc:education - typeprof:education`
-##  test Fstat df_num df_denom p_val sig
-##   HTZ 0.191      1     1.77  0.71</code></pre>
+          vcov = &quot;CR2&quot;, cluster = Duncan$cluster,
+          tidy = TRUE)</code></pre>
+<pre><code>##                             hypothesis test   Fstat df_num df_denom p_val sig
+##  typeprof:education - typebc:education  HTZ 0.00147      1     3.44 0.971    
+##    typewc:education - typebc:education  HTZ 0.07123      1     3.01 0.807    
+##  typewc:education - typeprof:education  HTZ 0.04658      1     2.66 0.845</code></pre>
 <p>Now, if we repeat the same test using our <code>lm_robust</code>
 object…</p>
 <pre class="r"><code>Wald_test(Duncan_rob,
           constraints = constrain_pairwise(&quot;:education&quot;, reg_ex = TRUE),
-          vcov = &quot;CR2&quot;, cluster = Duncan$cluster)</code></pre>
-<pre><code>## $`typeprof:education - typebc:education`
-##  test  Fstat df_num df_denom p_val sig
-##   HTZ 0.0083      1     3.55 0.932    
-## 
-## $`typewc:education - typebc:education`
-##  test Fstat df_num df_denom p_val sig
-##   HTZ 0.185      1     2.98 0.696    
-## 
-## $`typewc:education - typeprof:education`
-##  test Fstat df_num df_denom p_val sig
-##   HTZ 0.191      1     1.77  0.71</code></pre>
+          vcov = &quot;CR2&quot;, cluster = Duncan$cluster,
+          tidy = TRUE)</code></pre>
+<pre><code>##                             hypothesis test   Fstat df_num df_denom p_val sig
+##  typeprof:education - typebc:education  HTZ 0.00147      1     3.44 0.971    
+##    typewc:education - typebc:education  HTZ 0.07123      1     3.01 0.807    
+##  typewc:education - typeprof:education  HTZ 0.04658      1     2.66 0.845</code></pre>
 <blockquote>
 <p>🎉 <strong>Success!</strong> The results are the same!</p>
 </blockquote>
@@ -2038,26 +2030,26 @@ vcov_rob &lt;- vcovCR(rob, CO2$Plant, type = &quot;CR2&quot;)
 
 vcov_lin</code></pre>
 <pre><code>##                        (Intercept) Treatmentchilled          conc
-## (Intercept)            4.036444138     -4.036444138  1.735673e-03
-## Treatmentchilled      -4.036444138     17.692395066 -1.735673e-03
-## conc                   0.001735673     -0.001735673  5.446051e-06
-## Treatmentchilled:conc -0.001735673      0.012722592 -5.446051e-06
+## (Intercept)            5.972414231     -5.972414231 -1.054855e-03
+## Treatmentchilled      -5.972414231     21.663561528  1.054855e-03
+## conc                  -0.001054855      0.001054855  1.031405e-05
+## Treatmentchilled:conc  0.001054855      0.020779160 -1.031405e-05
 ##                       Treatmentchilled:conc
-## (Intercept)                   -1.735673e-03
-## Treatmentchilled               1.272259e-02
-## conc                          -5.446051e-06
-## Treatmentchilled:conc          2.196576e-05</code></pre>
+## (Intercept)                    1.054855e-03
+## Treatmentchilled               2.077916e-02
+## conc                          -1.031405e-05
+## Treatmentchilled:conc          5.063725e-05</code></pre>
 <pre class="r"><code>vcov_rob</code></pre>
 <pre><code>##                          (Intercept) Treatmentchilled        conc_c
-## (Intercept)              4.036444138     -4.036444138  1.735673e-03
-## Treatmentchilled        -4.036444138     17.692395066 -1.735673e-03
-## conc_c                   0.001735673     -0.001735673  5.446051e-06
-## Treatmentchilled:conc_c -0.001735673      0.012722592 -5.446051e-06
+## (Intercept)              5.972414231     -5.972414231 -1.054855e-03
+## Treatmentchilled        -5.972414231     21.663561528  1.054855e-03
+## conc_c                  -0.001054855      0.001054855  1.031405e-05
+## Treatmentchilled:conc_c  0.001054855      0.020779160 -1.031405e-05
 ##                         Treatmentchilled:conc_c
-## (Intercept)                       -1.735673e-03
-## Treatmentchilled                   1.272259e-02
-## conc_c                            -5.446051e-06
-## Treatmentchilled:conc_c            2.196576e-05</code></pre>
+## (Intercept)                        1.054855e-03
+## Treatmentchilled                   2.077916e-02
+## conc_c                            -1.031405e-05
+## Treatmentchilled:conc_c            5.063725e-05</code></pre>
 <blockquote>
 <p>🎉 <strong>Perfect Match!</strong> Once again, they are identical,
 but previously, this would not have worked (correctly) with either of
