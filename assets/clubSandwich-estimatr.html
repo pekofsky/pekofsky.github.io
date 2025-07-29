@@ -354,7 +354,30 @@ Improvements</h1>
 </div>
 
 
-<!-- Page 1 -->
+<style>
+.page-break {
+page-break-before: always;
+break-before: page;
+margin-top: 50px;
+border-top: 2px solid #ddd;
+padding-top: 30px;
+}
+@media print {
+.page-break {
+page-break-before: always;
+margin-top: 0;
+border-top: none;
+padding-top: 0;
+}
+}
+@media screen {
+.page-break {
+margin-top: 50px;
+border-top: 2px solid #ddd;
+padding-top: 30px;
+}
+}
+</style>
 <div id="what-is-clubsandwich" class="section level1">
 <h1>What is clubSandwich?</h1>
 <p>clubSandwich is an R package implements sandwich estimators into a
@@ -367,7 +390,10 @@ do a great job</li>
 <p>clubSandwich has an object oriented design, allowing for it to be
 used with a variety of statistical models from base R and other
 packages</p>
-<!-- Page 2 -->
+<p>If you’d like to learn more, please visit <a href="https://jepusto.github.io/clubSandwich/" class="uri">https://jepusto.github.io/clubSandwich/</a>.</p>
+<div class="page-break">
+
+</div>
 </div>
 <div id="estimatr-package" class="section level1">
 <h1>estimatr Package</h1>
@@ -386,12 +412,12 @@ library(clubSandwich)</code></pre>
 Duncan$cluster &lt;- sample(LETTERS[1:8], size = nrow(Duncan), replace = TRUE)
 head(Duncan)</code></pre>
 <pre><code>##            type income education prestige cluster
-## accountant prof     62        86       82       E
-## pilot      prof     72        76       83       G
+## accountant prof     62        86       82       G
+## pilot      prof     72        76       83       B
 ## architect  prof     75        92       90       E
-## author     prof     55        90       76       C
-## chemist    prof     64        86       90       F
-## minister   prof     21        84       87       F</code></pre>
+## author     prof     55        90       76       A
+## chemist    prof     64        86       90       E
+## minister   prof     21        84       87       A</code></pre>
 <p>Now, we can also make two models using <code>lm</code> and
 <code>lm_robust</code>, which will be very similar, since they will be
 using the same data and formula.</p>
@@ -470,7 +496,9 @@ model displays slightly more information, such as confidence intervals,
 but the <em>Estimate</em> column of both models is the same, which means
 the models are effectively identical for the purpose I will be using
 them for here.</p>
-<!-- Page 3 -->
+<div class="page-break">
+
+</div>
 </div>
 <div id="wald_test" class="section level1">
 <h1>Wald_test</h1>
@@ -484,15 +512,15 @@ job type:</p>
           vcov = &quot;CR2&quot;, cluster = Duncan$cluster)</code></pre>
 <pre><code>## $`typeprof:education - typebc:education`
 ##  test   Fstat df_num df_denom p_val sig
-##   HTZ 0.00269      1     3.64 0.961    
+##   HTZ 0.00705      1     2.83 0.939    
 ## 
 ## $`typewc:education - typebc:education`
 ##  test Fstat df_num df_denom p_val sig
-##   HTZ 0.144      1     4.21 0.723    
+##   HTZ 0.336      1     3.99 0.593    
 ## 
 ## $`typewc:education - typeprof:education`
 ##  test  Fstat df_num df_denom p_val sig
-##   HTZ 0.0533      1     3.18 0.831</code></pre>
+##   HTZ 0.0985      1     2.82 0.775</code></pre>
 <p>Now, if we repeat the same test using our <code>lm_robust</code>
 object…</p>
 <pre class="r"><code>Wald_test(Duncan_rob,
@@ -500,23 +528,212 @@ object…</p>
           vcov = &quot;CR2&quot;, cluster = Duncan$cluster)</code></pre>
 <pre><code>## $`typeprof:education - typebc:education`
 ##  test   Fstat df_num df_denom p_val sig
-##   HTZ 0.00269      1     3.64 0.961    
+##   HTZ 0.00705      1     2.83 0.939    
 ## 
 ## $`typewc:education - typebc:education`
 ##  test Fstat df_num df_denom p_val sig
-##   HTZ 0.144      1     4.21 0.723    
+##   HTZ 0.336      1     3.99 0.593    
 ## 
 ## $`typewc:education - typeprof:education`
 ##  test  Fstat df_num df_denom p_val sig
-##   HTZ 0.0533      1     3.18 0.831</code></pre>
+##   HTZ 0.0985      1     2.82 0.775</code></pre>
 <p>The results are the same!</p>
 <p>Since <code>Wald_test</code>is one of the main methods of
 clubSandwich, it depends on many other functions that also did not work
 with <code>lm_robust</code> objects, so this required a lot of work
 under the hood.</p>
-<!-- Page 4 -->
-<!-- Page 5 -->
-<!-- Page 6 -->
+<div class="page-break">
+
+</div>
+</div>
+<div id="why-is-this-useful" class="section level1">
+<h1>Why Is This Useful?</h1>
+<p>You may be wondering, why would you want this as opposed to just
+using a regular <code>lm</code> object. Among other differences,
+<code>lm_robust</code> has arguments <em>clusters</em> and
+<em>fixed_effects</em>, which <code>lm</code> does not have. While this
+caused additional incompatibilities, they were well worth ironing
+out.</p>
+<p>I’ve created a models using the <em>fixed_effects</em> argument to
+help demonstrate the appeal:</p>
+<pre class="r"><code>data(&quot;ChickWeight&quot;, package = &quot;datasets&quot;)
+N &lt;- nrow(ChickWeight)
+ChickWeight$wt &lt;- 1 + rpois(N, 3)
+ChickWeight$Chick_ordered &lt;- ChickWeight$Chick # James&#39; suggestion 4/16
+ChickWeight$Chick &lt;- factor(ChickWeight$Chick, ordered = FALSE)
+ChickWeight$Chick_int &lt;- as.integer(ChickWeight$Chick)
+
+lm_fit_fe &lt;- lm(
+  weight ~ 0 + Time:Diet + Chick, 
+  data = ChickWeight
+  )
+
+summary(lm_fit_fe)</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = weight ~ 0 + Time:Diet + Chick, data = ChickWeight)
+## 
+## Residuals:
+##    Min     1Q Median     3Q    Max 
+## -79.06 -14.78  -1.71  14.71  87.54 
+## 
+## Coefficients:
+##            Estimate Std. Error t value Pr(&gt;|t|)    
+## Chick18     30.3094    17.9425   1.689 0.091766 .  
+## Chick16      9.5705     9.7155   0.985 0.325041    
+## Chick15     13.2906     9.1528   1.452 0.147077    
+## Chick13     -5.2060     7.8542  -0.663 0.507733    
+## Chick9       8.1274     7.8542   1.035 0.301250    
+## Chick20      5.3774     7.8542   0.685 0.493869    
+## Chick10     10.0440     7.8542   1.279 0.201530    
+## Chick8      25.0938     8.0790   3.106 0.001999 ** 
+## Chick17     19.4607     7.8542   2.478 0.013536 *  
+## Chick19     13.7107     7.8542   1.746 0.081458 .  
+## Chick4      26.2940     7.8542   3.348 0.000873 ***
+## Chick6      40.7107     7.8542   5.183 3.12e-07 ***
+## Chick11     56.8774     7.8542   7.242 1.59e-12 ***
+## Chick3      42.7940     7.8542   5.449 7.83e-08 ***
+## Chick1      38.6274     7.8542   4.918 1.17e-06 ***
+## Chick12     41.0440     7.8542   5.226 2.51e-07 ***
+## Chick2      46.8774     7.8542   5.968 4.42e-09 ***
+## Chick5      53.6274     7.8542   6.828 2.39e-11 ***
+## Chick14     78.2940     7.8542   9.968  &lt; 2e-16 ***
+## Chick7      76.9607     7.8542   9.799  &lt; 2e-16 ***
+## Chick24    -27.7331     8.2201  -3.374 0.000796 ***
+## Chick30      9.5169     8.2201   1.158 0.247485    
+## Chick22     10.2669     8.2201   1.249 0.212219    
+## Chick23     17.4336     8.2201   2.121 0.034402 *  
+## Chick27     16.4336     8.2201   1.999 0.046102 *  
+## Chick28     35.9336     8.2201   4.371 1.49e-05 ***
+## Chick26     37.0169     8.2201   4.503 8.26e-06 ***
+## Chick25     49.1003     8.2201   5.973 4.30e-09 ***
+## Chick29     47.8503     8.2201   5.821 1.02e-08 ***
+## Chick21     90.5169     8.2201  11.012  &lt; 2e-16 ***
+## Chick33    -14.9497     8.2201  -1.819 0.069530 .  
+## Chick37    -22.1997     8.2201  -2.701 0.007144 ** 
+## Chick36     10.2170     8.2201   1.243 0.214448    
+## Chick31      3.8837     8.2201   0.472 0.636794    
+## Chick39      9.5503     8.2201   1.162 0.245832    
+## Chick38     17.6337     8.2201   2.145 0.032396 *  
+## Chick32     32.8837     8.2201   4.000 7.23e-05 ***
+## Chick40     32.8837     8.2201   4.000 7.23e-05 ***
+## Chick34     44.1337     8.2201   5.369 1.19e-07 ***
+## Chick35     68.4670     8.2201   8.329 7.15e-16 ***
+## Chick44     15.1966     8.6159   1.764 0.078350 .  
+## Chick45     14.1727     8.2554   1.717 0.086609 .  
+## Chick43     37.5894     8.2554   4.553 6.57e-06 ***
+## Chick41     23.0060     8.2554   2.787 0.005516 ** 
+## Chick47     22.5060     8.2554   2.726 0.006621 ** 
+## Chick49     32.3394     8.2554   3.917 0.000101 ***
+## Chick46     28.6727     8.2554   3.473 0.000557 ***
+## Chick50     42.0894     8.2554   5.098 4.79e-07 ***
+## Chick42     43.6727     8.2554   5.290 1.80e-07 ***
+## Chick48     52.2560     8.2554   6.330 5.27e-10 ***
+## Time:Diet1   6.6906     0.2598  25.752  &lt; 2e-16 ***
+## Time:Diet2   8.6091     0.3418  25.185  &lt; 2e-16 ***
+## Time:Diet3  11.4229     0.3418  33.417  &lt; 2e-16 ***
+## Time:Diet4   9.6559     0.3489  27.676  &lt; 2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 25.37 on 524 degrees of freedom
+## Multiple R-squared:  0.9706, Adjusted R-squared:  0.9676 
+## F-statistic: 320.9 on 54 and 524 DF,  p-value: &lt; 2.2e-16</code></pre>
+<pre class="r"><code>lm_rob_fe &lt;- lm_robust(
+  weight ~ Time:Diet, 
+  data = ChickWeight, 
+  fixed_effects = ~ Chick
+)
+
+summary(lm_rob_fe)</code></pre>
+<pre><code>## 
+## Call:
+## lm_robust(formula = weight ~ Time:Diet, data = ChickWeight, fixed_effects = ~Chick)
+## 
+## Standard error type:  HC2 
+## 
+## Coefficients:
+##            Estimate Std. Error t value   Pr(&gt;|t|) CI Lower CI Upper  DF
+## Time:Diet1    6.691     0.2964   22.57  2.649e-79    6.108    7.273 524
+## Time:Diet2    8.609     0.4951   17.39  8.321e-54    7.637    9.582 524
+## Time:Diet3   11.423     0.4837   23.61  1.669e-84   10.473   12.373 524
+## Time:Diet4    9.656     0.3054   31.61 1.581e-123    9.056   10.256 524
+## 
+## Multiple R-squared:  0.8843 ,    Adjusted R-squared:  0.8726
+## Multiple R-squared (proj. model):  0.8585 ,  Adjusted R-squared (proj. model):  0.8442 
+## F-statistic (proj. model): 592.2 on 4 and 524 DF,  p-value: &lt; 2.2e-16</code></pre>
+<p>As you can see, while the in the bottom 4 rows of the
+<em>Estimate</em> column of our first model are equal to their
+respective places in the second, the second does not show all the dummy
+variables and is much better suited to this usecase, which carries over
+to using clubSandwich more effectively since many of clubSandwhich’s
+functions take models as input.</p>
+<div class="page-break">
+
+</div>
+</div>
+<div id="lm_lin" class="section level1">
+<h1>lm_lin</h1>
+<p>Interestingly, estimatr has a function called <code>lm_lin</code>
+which can be used to create lm_robust objects as well, though it
+functions a bit differently from <code>lm_robust</code>.</p>
+<p>Once again, I have loaded in some data and created our models, but
+this time one using <code>lm_robust</code> and one using
+<code>lm_lin</code>, and these models are both weighted and
+clustered:</p>
+<pre class="r"><code>data(&quot;CO2&quot;)
+N &lt;- nrow(CO2)
+CO2$wt &lt;- 1 + rpois(N, 3)
+CO2$Plant_ordered &lt;- CO2$Plant # remove rows with NA in uptake
+CO2$Plant &lt;- factor(CO2$Plant, ordered = FALSE)
+CO2$Plant_int &lt;- as.integer(CO2$Plant)
+
+lin &lt;- lm_lin(
+  uptake ~ Treatment,
+  covariates = ~ conc,
+  data = CO2,
+  weights = wt,
+  clusters = Plant
+)
+
+CO2$conc_c &lt;- CO2$conc - lin$scaled_center[[&quot;conc&quot;]]
+
+rob &lt;- lm_robust(
+  uptake ~ Treatment +
+    conc_c + Treatment:conc_c,
+  data = CO2,
+  weights = wt,
+  clusters = Plant
+)</code></pre>
+<p>Now we can use vcovCR on both, which gives a cluster-robust
+variance-covariance matrix for each.</p>
+<pre class="r"><code>vcov_lin &lt;- vcovCR(lin, CO2$Plant, type = &quot;CR2&quot;)
+vcov_rob &lt;- vcovCR(rob, CO2$Plant, type = &quot;CR2&quot;)
+
+vcov_lin</code></pre>
+<pre><code>##                        (Intercept) Treatmentchilled          conc
+## (Intercept)            6.690132430     -6.690132430  2.779456e-03
+## Treatmentchilled      -6.690132430     20.817594811 -2.779456e-03
+## conc                   0.002779456     -0.002779456  6.733280e-06
+## Treatmentchilled:conc -0.002779456      0.019167859 -6.733280e-06
+##                       Treatmentchilled:conc
+## (Intercept)                   -2.779456e-03
+## Treatmentchilled               1.916786e-02
+## conc                          -6.733280e-06
+## Treatmentchilled:conc          3.035031e-05</code></pre>
+<pre class="r"><code>vcov_rob</code></pre>
+<pre><code>##                          (Intercept) Treatmentchilled        conc_c
+## (Intercept)              6.690132430     -6.690132430  2.779456e-03
+## Treatmentchilled        -6.690132430     20.817594811 -2.779456e-03
+## conc_c                   0.002779456     -0.002779456  6.733280e-06
+## Treatmentchilled:conc_c -0.002779456      0.019167859 -6.733280e-06
+##                         Treatmentchilled:conc_c
+## (Intercept)                       -2.779456e-03
+## Treatmentchilled                   1.916786e-02
+## conc_c                            -6.733280e-06
+## Treatmentchilled:conc_c            3.035031e-05</code></pre>
+<p>Once again, they are identical, but previously, this would not have
+worked (correctly) with either of these objects.</p>
 </div>
 
 
