@@ -6,7 +6,22 @@ permalink: /projects/
 
 ---
 
-My best projects and work from classes and personal endeavors
+My best projects and work.
+
+---
+
+<!-- <h2><a href="/projects/clubSandwich-estimatr/">clubSandwich estimatr Compatibility Demo</a></h2> -->
+## clubSandwich estimatr Compatibility Demo  
+[View HTML](/assets/clubSandwich-estimatr.html){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/clubSandwich-estimatr.html" download>Download HTML</a>
+
+<div class="collapsible-paragraph">
+  <p class="collapsible-text">
+    Short demo page for a lightning talk regarding some of my contributions to clubSandwich, which allow some objects from estimatr to be passed to clubSandwich functions.
+    <br><br>
+    <u><b>My Contributions:</b></u> This is work from my internship with OSPO, so this page and much of the code being demonstrated was written by me.
+  </p>
+  <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
+</div>
 
 ---
 
