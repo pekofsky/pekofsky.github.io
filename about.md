@@ -36,32 +36,27 @@ Please Note: This page only includes personal information. For professional info
 
 # <span style="color:blue"> Where am I from? </span>
 
-I was born in New Jersey. When I was 1, my family moved to a Chicago-area suburb, where we lived until I finished elementary school. During middle school and my first two years of high school, we lived in a suburb northwest of LA. For my final two years of high school, I lived in New York City, however, I only had about half a year of properly experiencing the city before Covid-19 lockdowns hit. I then moved on to Madison for my undergrad, and throughout my 4 years studying in Madison, New York has remained the home I've returned to for the summer and other breaks.
+I was born in New Jersey. When I was 1, my family moved to a Chicago-area suburb, where we lived until I finished elementary school. During middle school and my first 2 years of high school, we lived in a suburb northwest of Los Angeles. For my final 2 years of high school, I lived in New York City. However, I only had about half a year of fully experiencing the city before the Covid-19 lockdowns hit. I then moved to Madison for my undergrad, and throughout my 4 years studying in Madison, New York has remained the home I've returned to for the summer and other breaks.
 
 # <span style="color:red"> What do I do for fun? </span>
 
-Currently, my most *interesting* hobbies are **bouldering** and **playing piano**, but I have a long way to go in both. On that note, any recommendations for improving at either, especially the former, are always appreciated. Additionally, I spend a lot of my free time in the **gym** and **watching shows**. Currently I am attempting a lean-bulk with the goal of getting slightly bigger and much stronger, and my recent binges are Suits and One Piece. I also really like **cooking**, but I don't mention this as one of my main hobbies because, firstly, *I need to do it*, and second, I <u>hate</u> cleaning up afterwards. I also really like **video games**, in particular, Overwatch 2 and Super Smash Bros Ultimate, though I only infrequently play the latter currently, since the aforementioned pastimes almost always come first.
+Currently, my most *interesting* hobbies are **bouldering** and **playing piano**, but I have a long way to go in both, and I always appreciate any recommendations for improving at either. Additionally, I spend a lot of my free time in the **gym** and **watching shows**. Currently I'm attempting a lean-bulk with the goal of getting slightly bigger and significantly stronger, and my recent binges are Suits and One Piece. I also really like **cooking**, but I don't count this as a hobby because, I need to do it. I also enjoy **video games**, in particular, Overwatch 2 and Super Smash Bros Ultimate.
 
-# <span style="color:green"> Favorite Food(s)? </span>
+# <span style="color:green"> Favorite Foods? </span>
 
 * Chicken Vesuvio
     * Not nearly as well-known as it should be, cheap, filling, wonderfully flavorful, prepared in bulk, and it gets more delicious each day it sits in your fridge.
 * Deep Dish Pizza
-    * It only counts if its from a major Chicago-area chain. When people tell me "I don't like deep dish" and I learn that they've never had it **<u>in</u>** Chicago, it irks me, because it's really not the same.
+    * I’m partial to Chicago-area deep dish; nothing else quite hits the spot for me.
 * Detroit Style Pizza
-    * Unlike the last item, I've never had it in it's place of origin but I still think it's great.
+    * I've never had it in its place of origin but I still think it's great.
 * Steak
-    * Lean cuts only. Sirloin and filet are where it's at. New York strip is also decent.
+    * Lean cuts are my favorite, especially sirloin and filet. I also enjoy New York strip. On special occasions, I'll appreciate a ribeye as well.
 * Korean Barbecue
     * Shoutout [Let's Meat BBQ](https://www.letsmeatnyc.com/menu/)!
 * Baked Ziti
-    * Simple and delicious.
-    * Also happens to be surprisingly good on pizza. Little Italy Pizza (one of my favorite NYC Pizza Chains) has baked ziti slices, truly the best of both worlds!
+    * Simple and delicious and also happens to be surprisingly good on pizza. Little Italy Pizza (one of my favorite NYC Pizza Chains) has baked ziti slices, truly the best of both worlds!
 * Ramen
-    * I love instant ramen, but that's not what I'm referring to.
+    * Ramen shops are my favorite, but I love instant ramen too.
 * Fried Rice
-    * During some semesters of college I think I was making large batches roughly twice a week.
-
----
-
-I'll add more to this page at a later date, but thanks for making it this far!
+    * I frequently make and enjoy large batches.
