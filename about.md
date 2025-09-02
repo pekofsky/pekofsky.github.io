@@ -42,7 +42,11 @@ I was born in New Jersey. When I was 1, my family moved to a Chicago-area suburb
 
 Currently, my most *interesting* hobbies are **bouldering** and **playing piano**, but I have a long way to go in both, and I always appreciate any recommendations for improving at either. Additionally, I spend a lot of my free time in the **gym** and **watching shows**. Currently I'm attempting a lean-bulk with the goal of getting slightly bigger and significantly stronger, and my recent binges are Suits and One Piece. I also really like **cooking**, but I don't count this as a hobby because, I need to do it. I also enjoy **video games**, in particular, Overwatch 2 and Super Smash Bros Ultimate.
 
-# <span style="color:green"> Favorite Foods? </span>
+# <span style="color:green"> Favorite Books? </span>
+
+The Great Gatsby, The Little Prince, and Winnie-the-Pooh, in that order.
+
+# <span style="color:yellow"> Favorite Foods? </span>
 
 * Chicken Vesuvio
     * Not nearly as well-known as it should be, cheap, filling, wonderfully flavorful, prepared in bulk, and it gets more delicious each day it sits in your fridge.
