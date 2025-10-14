@@ -6,17 +6,31 @@ permalink: /projects/
 
 ---
 
-My best academic and personal projects.
+My best academic, work-related, and personal projects.
+
+---
+
+## Getting Started Guide for clubSandwich Interns
+[View online](https://pekofsky.github.io/clubSandwichResources/Getting-Started-For-Interns.html)
+
+<div class="collapsible-paragraph">
+  <p class="collapsible-text">
+    A webpage I wrote and deployed for future clubSandwich interns to utilize. It walks them through the most quick and straightforward ways to quickly get their system(s) set up and get familiar with the basics of R package development. Additionally, it includes details on how to set up GitHub copilot in R Studio, instructions on making a pull request, coding tips, useful resources, and tips based on my own experiences and questions.
+    <br><br>
+    <u><b>My Contributions:</b></u> This is work from my internship with OSPO, so this page is entirely by me, though it includes links to many external resources.
+  </p>
+  <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
+</div>
 
 ---
 
 <!-- <h2><a href="/projects/clubSandwich-estimatr/">clubSandwich estimatr Compatibility Demo</a></h2> -->
 ## clubSandwich estimatr Compatibility Demo  
-[View HTML](/assets/clubSandwich-estimatr.html){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/clubSandwich-estimatr.html" download>Download HTML</a>
+[View online](/assets/clubSandwich-estimatr.html){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/clubSandwich-estimatr.html" download>Download HTML</a>
 
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
-    Short demo page for a lightning talk regarding some of my contributions to clubSandwich, which allow some objects from estimatr to be passed to clubSandwich functions.
+    Short demo page for my second clubSandwich lightning talk. Demonstrates my changes which allow some objects from estimatr to be passed to clubSandwich functions.
     <br><br>
     <u><b>My Contributions:</b></u> This is work from my internship with OSPO, so this page and much of the code being demonstrated was written by me.
   </p>
@@ -27,7 +41,7 @@ My best academic and personal projects.
 
 <!-- <h2><a href="/projects/436proj/">US Migration Flows Visualization Project</a></h2> -->
 ## US Migration Flows Visualization Project  
-[View HTML](/assets/436proj.html){:target="_blank" rel="noopener noreferrer"} | [View PDF](/assets/436proj.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/436proj.html" download>Download HTML</a> | <a href="/assets/436proj.pdf" download>Download PDF</a>
+[View online](/assets/436proj.html){:target="_blank" rel="noopener noreferrer"} | [View PDF](/assets/436proj.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/436proj.html" download>Download HTML</a> | <a href="/assets/436proj.pdf" download>Download PDF</a>
 
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
@@ -44,7 +58,7 @@ My best academic and personal projects.
 
 <!-- <h2><a href="/projects/studyhabits/">Exploration of Simulated Student Habits Data</a></h2> -->
 ## Exploration of Simulated Student Habit Data  
-[View HTML](/assets/studyhabits.html){:target="_blank" rel="noopener noreferrer"} | [View PDF](/assets/studyhabits.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/studyhabits.html" download>Download HTML</a> | <a href="/assets/studyhabits.pdf" download>Download PDF</a>
+[View online](/assets/studyhabits.html){:target="_blank" rel="noopener noreferrer"} | [View PDF](/assets/studyhabits.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/studyhabits.html" download>Download HTML</a> | <a href="/assets/studyhabits.pdf" download>Download PDF</a>
 
 <div class="collapsible-paragraph">
   <p class="collapsible-text">
@@ -90,7 +104,7 @@ My best academic and personal projects.
 
 <!-- <h2><a href="/projects/240proj/">NYC Crime Analysis</a></h2> -->
 ## NYC Crime Analysis  
-[View HTML](/assets/240proj.html){:target="_blank" rel="noopener noreferrer"} | [View PDF](/assets/240proj.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/240proj.html" download>Download HTML</a> | <a href="/assets/240proj.pdf" download>Download PDF</a>
+[View online](/assets/240proj.html){:target="_blank" rel="noopener noreferrer"} | [View PDF](/assets/240proj.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/240proj.html" download>Download HTML</a> | <a href="/assets/240proj.pdf" download>Download PDF</a>
 
 <div class="collapsible-paragraph">
   <p class="collapsible-text">

@@ -5,7 +5,7 @@
 layout: home
 ---
 
-# Hi, I'm Samuel Pekofsky, a recent UW-Madison Graduate!
+## Hi, I'm Samuel Pekofsky, a recent UW-Madison Graduate!
 
 <div style="max-width: 700px; margin: 0 auto;">
   <img src="assets/grad.JPG" alt="Grad Photo" style="max-width: 100%; height: auto; display: block; margin: 0 auto;" />
