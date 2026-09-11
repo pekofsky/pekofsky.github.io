@@ -6,7 +6,7 @@ permalink: /projects/
 
 ---
 
-My best academic, work-related, and personal projects.
+A subset of my academic, work-related, and personal projects.
 
 ---
 
