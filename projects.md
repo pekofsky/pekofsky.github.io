@@ -39,6 +39,20 @@ My best academic, work-related, and personal projects.
 
 ---
 
+## clubSandwich Multiple Comparisons  
+[View online](/assets/ClubSandwich_Lightning_Talk.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/ClubSandwich_Lightning_Talk.pdf" download>Download PDF</a>
+
+<div class="collapsible-paragraph">
+  <p class="collapsible-text">
+    Slides for my first clubSandwich lightning talk.
+    <br><br>
+    <u><b>My Contributions:</b></u> This is work from my internship with OSPO, so this page and much of the code being demonstrated was written by me.
+  </p>
+  <button class="toggle-btn" onclick="toggleParagraph(this)">Show more</button>
+</div>
+
+---
+
 ## Deep Learning for Classifying Images of Egyptian Monuments
 [View PDF](/assets/453proj.pdf){:target="_blank" rel="noopener noreferrer"} | <a href="/assets/453proj.pdf" download>Download PDF</a>
 
